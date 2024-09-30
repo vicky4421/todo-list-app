@@ -4,7 +4,6 @@ declare_id!("6bG1wLW5oSvAtzWcZmW4HAfcXRgBJerghLoXHYSeFg1T");
 
 #[program]
 pub mod todo_list_app {
-    use anchor_lang::solana_program::vote::authorized_voters;
 
     use super::*;
 
